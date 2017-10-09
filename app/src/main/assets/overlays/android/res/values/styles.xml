@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Copyright (C) 2017 Damien Chazoule
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources>
+    <style name="Theme.Material.Settings" parent="@android:style/Theme.Material.Light.LightStatusBar">
+        <item name="android:statusBarColor">@*android:color/holo_blue_bright</item>
+        <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
+        <item name="android:colorControlNormal">@*android:color/material_deep_teal_500</item>
+    </style>
+
+    <style name="Theme.DeviceDefault.QuickSettings" parent="@android:style/Theme.Material.Light">
+        <item name="android:colorPrimary">#f5f5f5</item>
+        <item name="android:colorPrimaryDark">#e0e0e0</item>
+        <item name="android:colorSecondary">#eeeeee</item>
+        <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
+        <item name="android:colorControlNormal">#000000</item>
+    </style>
+
+    <style name="Theme.DeviceDefault.QuickSettings.Dialog" parent="@android:style/Theme.Material.Light.Dialog">
+        <item name="android:colorPrimary">#f5f5f5</item>
+        <item name="android:colorPrimaryDark">#e0e0e0</item>
+        <item name="android:colorSecondary">#eeeeee</item>
+        <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
+    </style>
+</resources>

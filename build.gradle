@@ -1,0 +1,47 @@
+buildscript {
+    ext.kotlin_version = '1.1.50'
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        // Note : Do Not Place Your Application Dependencies Here ;
+        // They Belong In The Individual Module 'build.gradle' Files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url "https://jitpack.io"
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+    def temp = new File(getProjectDir(), "/src/main/assets-temp")
+    if (temp.exists()) {
+        println("Cleaning Encrypted Assets...")
+        def encrypt = new File(getProjectDir(), "src/main/assets")
+        encrypt.deleteDir()
+
+        temp.eachFileRecurse (FileType.FILES) { asset ->
+            FileInputStream fis = new FileInputStream(asset)
+            File file = new File(file.getAbsolutePath().replace("assets-temp", "assets"))
+            file.getParentFile().mkdirs()
+            FileOutputStream fos = new FileOutputStream(file)
+            byte[] buffer = new byte[4096]
+            int i
+            while ((i = fis.read(buffer)) != -1) {
+                fos.write(buffer, 0, i)
+            }
+            fis.close()
+            fos.close()
+        }
+        temp.deleteDir()
+    }
+}

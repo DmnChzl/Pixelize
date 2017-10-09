@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Copyright (C) 2017 Damien Chazoule
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources>
+    <!-- Theme Name And Author Name -->
+    <string name="ThemeName">Pixelize</string>
+    <string name="ThemeAuthor">Mr Doomy</string>
+
+    <!-- Your Email For Bug Reports -->
+    <string name="ThemeAuthorEmail">mrdoomy@protonmail.com</string>
+
+    <!-- Do You Support Stock And Theme Ready Gapps ? : 'all' -->
+    <!-- Do You Support Theme Ready But Not Stock Gapps ? : 'ready' -->
+    <!-- Do You Support Stock But Not Theme Ready Gapps ? : 'stock' -->
+    <string name="ThemeReadyRequirement">all</string>
+
+    <!-- Theme Wallpaper Source (Must Be Raw) -->
+    <string name="ThemeWallpaperSource"></string>
+
+    <!-- Do Your Theme Support Substratum Legacy ? -->
+    <!-- If You Choose Not To Support Legacy, Then Change Line 12 In AndroidManifest.xml -->
+    <!-- From 'false' To 'true' To Hide Your Theme On The Play Store From Any Stock ROM -->
+    <bool name="ThemeSupportLegacy">true</bool>
+
+    <!-- Do Your Theme Support Substratum Samsung ? -->
+    <bool name="ThemeSupportSamsung">false</bool>
+
+    <!-- Do You Want To Override The Hero Image Auto Color Assignment ? -->
+    <!-- Don't Force Anything ? : 'auto' -->
+    <!-- Force Black / Dark Icons? : 'dark' -->
+    <!-- Force White / Light Icons? : 'light' -->
+    <string name="ThemeHeroOverride">auto</string>
+
+    <!-- Put Your Theme Changelog Here -->
+    <string-array name="ThemeChangelog">
+        <item>Pixelize Is Alive !</item>
+    </string-array>
+</resources>

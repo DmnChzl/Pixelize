@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Copyright (C) 2017 Damien Chazoule
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources>
+    <color name="calculator_accent_color">#448aff</color>
+    <color name="calculator_error_color">#f44336</color>
+    <color name="display_background_color">#fafafa</color>
+    <color name="display_formula_text_color">#0d47a1</color>
+    <color name="display_result_text_color">#0d47a1</color>
+    <color name="pad_numeric_background_color">#eeeeee</color>
+    <color name="pad_operator_background_color">#e0e0e0</color>
+    <color name="pad_advanced_background_color">#1de9b6</color>
+    <color name="pad_button_text_color">#0d47a1</color>
+    <color name="pad_button_advanced_text_color">#00695c</color>
+    <color name="pad_button_ripple_color">#2196f3</color>
+    <color name="pad_button_advanced_ripple_color">#009688</color>
+</resources>
