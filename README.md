@@ -11,23 +11,23 @@ This application supports the following customizations :
     - Navigation Bar color
     - Quick Settings color
 
-#Permissions
+# Permissions
 
 - android.permission.INTERNET
 - com.android.vending.CHECK_LICENSE
 
-#Dependencies
+# Dependencies
 
 - com.github.javiersantos:PiracyChecker:1.1
 
-#QR Code
+# QR Code
 
 <a href="https://play.google.com/store/apps/details?id=com.doomy.pixelize">
   <img alt="QR Code Pixelize"
        src="https://raw.githubusercontent.com/MrDoomy/Pixelize/master/dev/images/qrcode.png" />
 </a>
 
-#Screenshots
+# Screenshots
 
 ![Image](https://raw.githubusercontent.com/MrDoomy/Pixelize/master/dev/screenshots/bullhead_1_small.png)
 ![Image](https://raw.githubusercontent.com/MrDoomy/Pixelize/master/dev/screenshots/bullhead_2_small.png)
@@ -38,7 +38,7 @@ This application supports the following customizations :
 ![Image](https://raw.githubusercontent.com/MrDoomy/Pixelize/master/dev/screenshots/bullhead_7_small.png)
 ![Image](https://raw.githubusercontent.com/MrDoomy/Pixelize/master/dev/screenshots/bullhead_8_small.png)
 
-#License
+# License
 
     Copyright (C) 2017 Damien Chazoule
 
