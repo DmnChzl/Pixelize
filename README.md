@@ -1,4 +1,4 @@
-![Image](https://raw.githubusercontent.com/MrDoomy/Pixelize/master/dev/images/pixelize.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Pixelize/master/dev/images/pixelize.png)
 
 This is a Substratum theme for Android O (8.0).
 
@@ -24,19 +24,19 @@ This application supports the following customizations :
 
 <a href="https://play.google.com/store/apps/details?id=com.doomy.pixelize">
   <img alt="QR Code Pixelize"
-       src="https://raw.githubusercontent.com/MrDoomy/Pixelize/master/dev/images/qrcode.png" />
+       src="https://raw.githubusercontent.com/DmnChzl/Pixelize/master/dev/images/qrcode.png" />
 </a>
 
 # Screenshots
 
-![Image](https://raw.githubusercontent.com/MrDoomy/Pixelize/master/dev/screenshots/bullhead_1_small.png)
-![Image](https://raw.githubusercontent.com/MrDoomy/Pixelize/master/dev/screenshots/bullhead_2_small.png)
-![Image](https://raw.githubusercontent.com/MrDoomy/Pixelize/master/dev/screenshots/bullhead_3_small.png)
-![Image](https://raw.githubusercontent.com/MrDoomy/Pixelize/master/dev/screenshots/bullhead_4_small.png)
-![Image](https://raw.githubusercontent.com/MrDoomy/Pixelize/master/dev/screenshots/bullhead_5_small.png)
-![Image](https://raw.githubusercontent.com/MrDoomy/Pixelize/master/dev/screenshots/bullhead_6_small.png)
-![Image](https://raw.githubusercontent.com/MrDoomy/Pixelize/master/dev/screenshots/bullhead_7_small.png)
-![Image](https://raw.githubusercontent.com/MrDoomy/Pixelize/master/dev/screenshots/bullhead_8_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Pixelize/master/dev/screenshots/bullhead_1_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Pixelize/master/dev/screenshots/bullhead_2_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Pixelize/master/dev/screenshots/bullhead_3_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Pixelize/master/dev/screenshots/bullhead_4_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Pixelize/master/dev/screenshots/bullhead_5_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Pixelize/master/dev/screenshots/bullhead_6_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Pixelize/master/dev/screenshots/bullhead_7_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Pixelize/master/dev/screenshots/bullhead_8_small.png)
 
 # License
 
